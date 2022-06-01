@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #333;
+    color: white;
+    background-image: url('./background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    margin: auto;
+    max-width: 340px;
+    background-color: rgba(51, 51, 51,0.5);
+    backdrop-filter: blur(5px);
+    height: 95vh;
+    padding: 0.5rem 1rem;
+}
+
+p {
+    font-size: 150%;
+    background-color: rgba(43, 4, 10, 0.3);
+    padding: 2rem 1rem;
+    border: 0px darkred solid;
+    border-left-width: 5px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    padding: 0.5rem;
+    margin: auto;
+}
+
+a{
+    color: white;
+}
