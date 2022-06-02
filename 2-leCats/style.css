@@ -26,6 +26,7 @@ header * {
 
 main{
     text-align:  center;
+    min-height: fit-content;
 }
 
 article{
