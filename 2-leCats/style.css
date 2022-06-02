@@ -3,7 +3,7 @@
 }
 
 html{
-    background-color: #333;
+    background-color: rgb(20, 0, 0);
     color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -11,4 +11,33 @@ html{
 img{
     display: inline-block;
     max-width: 90vw;
+    max-height: 60vh;
+}
+
+header{
+    background-color: rgb(43, 2, 2);
+    text-align: center;
+    padding: 0.5em;
+}
+
+header * {
+    margin: 0
+}
+
+main{
+    text-align:  center;
+}
+
+article{
+    position: absolute;
+    bottom: 0px;
+}
+
+article * {
+    margin: 0;
+    font-size: 18px;
+}
+
+a{
+    color: red
 }
