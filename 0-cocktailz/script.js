@@ -74,7 +74,6 @@ function colorz(){
     header.setAttribute('style',``)
     background.setAttribute('style',`background-color: ${color1}`);
     header.setAttribute('style',`background-color: ${color2}`)
-    console.log('Colorz!')
 }
 
 const button = document.querySelector('button');
